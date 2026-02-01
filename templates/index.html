@@ -1,58 +1,96 @@
-{% extends "layout.html" %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Jevan Ray Bayedbed | Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <section class="hero card">
+      <h1>Jevan Ray Bayedbed</h1>
+      <h2>Client Relationship Manager | Lead Generation Specialist | IT Support</h2>
+      <p>
+        I help businesses grow through strong client relationships, accurate data,
+        efficient operations, and technology-driven solutions.
+      </p>
+      <p class="meta">📍 Baguio City, Philippines · 📧 jevanbayedbed@gmail.com</p>
+    </section>
 
-{% block content %}
-<section id="about" class="section">
-    <h2>About Me</h2>
-    <p>I am a motivated Lead Generation Specialist and Customer Service Representative with over 5 years of experience, skilled in communication, research, and technical support. I am passionate about helping businesses grow by delivering quality leads and excellent customer experiences.</p>
-    <p>I am currently learning Python programming and basic web development to expand my technical skillset. I also type at a speed of 60–70 words per minute.</p>
-</section>
+    <section class="card">
+      <h3>About Me</h3>
+      <p>
+        Results-driven professional with experience in client relationship management,
+        lead generation, logistics coordination, and IT support. Experienced with both
+        local and international companies and comfortable using modern AI-powered tools
+        to improve productivity.
+      </p>
+    </section>
 
-<section id="experience" class="section">
-    <h2>Work Experience</h2>
-    <div class="job">
-        <h3>Lead Generation Specialist</h3>
-        <h4>Clarus Designs (2019 – 2023)</h4>
-        <ul>
-            <li>Researched and identified qualified leads to support sales efforts.</li>
-            <li>Collaborated with sales teams to provide accurate lead details and increase conversion rates.</li>
-            <li>Maintained a high level of data accuracy and timeliness.</li>
-        </ul>
-    </div>
-    <div class="job">
-        <h3>Tally Clerk</h3>
-        <h4>DP World Terminal 1, UAE (2014 – 2017)</h4>
-        <ul>
-            <li>Managed inventory counts and accurate record keeping for shipment.</li>
-            <li>Ensured smooth logistics operation and documentation accuracy.</li>
-        </ul>
-    </div>
-    <div class="job">
-        <h3>PC Support Engineer</h3>
-        <h4>Texas Instruments (2013 – 2014)</h4>
-        <ul>
-            <li>Provided technical support and troubleshooting for internal users.</li>
-            <li>Assisted in hardware and software installations and maintenance.</li>
-        </ul>
-    </div>
-</section>
+    <section class="card">
+      <h3>Experience</h3>
+      <h4>Client Relationship Manager – Farmer’s Basket</h4>
+      <span class="date">July 2025 – December 2025</span>
+      <ul>
+        <li>Managed restaurant and hotel clients across Baguio City</li>
+        <li>Coordinated daily orders and delivery schedules</li>
+        <li>Handled client inquiries and after-sales support</li>
+        <li>Created basic promotional materials using Canva</li>
+      </ul>
 
-<section id="skills" class="section">
-    <h2>Skills</h2>
-    <ul class="skills-list">
-        <li>Lead Generation & Research</li>
-        <li>Customer Service & Support</li>
-        <li>Python Programming & Flask</li>
-        <li>Basic Web Development (HTML, CSS)</li>
-        <li>Typing Speed: 60–70 WPM</li>
-        <li>Technical Troubleshooting</li>
-        <li>Effective Communication</li>
-        <li>Problem Solving & Quick Learning</li>
-    </ul>
-</section>
+      <h4>Lead Generation Specialist – Clarus Designs (Remote)</h4>
+      <span class="date">2019 – 2023</span>
+      <ul>
+        <li>Researched and qualified B2B leads</li>
+        <li>Maintained and cleaned CRM data</li>
+        <li>Conducted market and industry research</li>
+        <li>Salesforce CRM basic training</li>
+      </ul>
+    </section>
 
-<section id="contact" class="section">
-    <h2>Contact Me</h2>
-    <p>Email: <a href="mailto:jevanbayedbed@gmail.com">jevanbayedbed@gmail.com</a></p>
-    <p>GitHub: <a href="https://github.com/jevanray" target="_blank">github.com/jevanray</a></p>
-</section>
-{% endblock %}
+    <section class="card">
+      <h3>Skills</h3>
+      <div class="grid">
+        <div>
+          <strong>Technical</strong>
+          <ul>
+            <li>Windows OS</li>
+            <li>Hardware & Software Troubleshooting</li>
+            <li>Microsoft Office (60–70 WPM)</li>
+            <li>AI Tools</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Design & Marketing</strong>
+          <ul>
+            <li>Canva (familiar, basic use)</li>
+            <li>Product Promotions</li>
+          </ul>
+        </div>
+        <div>
+          <strong>Professional</strong>
+          <ul>
+            <li>Client Management</li>
+            <li>Communication</li>
+            <li>Time Management</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3>Work Setup</h3>
+      <p><strong>Internet:</strong> 296 Mbps Download / 291 Mbps Upload</p>
+      <p><strong>Device:</strong> Intel i7-9700K · 32GB RAM · Windows 11 Pro</p>
+    </section>
+
+    <section class="card contact">
+      <h3>Contact</h3>
+      <p>Email: jevanbayedbed@gmail.com</p>
+      <p>Location: Baguio City, Philippines</p>
+    </section>
+  </div>
+</body>
+</html>
