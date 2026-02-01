@@ -75,3 +75,18 @@ ul {
   display: block;
 }
 
+.download-link {
+  display: inline-block;
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 10px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 12px;
+  transition: background 0.2s;
+}
+
+.download-link:hover {
+  background-color: #2563eb;
+}
